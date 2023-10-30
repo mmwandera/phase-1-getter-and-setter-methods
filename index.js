@@ -35,3 +35,19 @@ class Circle{
         this.radius = Math.sqrt(value / Math.PI);
       }
 }
+
+const firstCircle = new Circle(2)
+console.log(firstCircle)
+
+console.log(firstCircle.radius) 
+console.log(firstCircle.diameter)
+console.log(firstCircle.circumference)
+console.log(firstCircle.area)
+
+firstCircle.radius = 4
+console.log(firstCircle)
+
+console.log(firstCircle.radius)
+console.log(firstCircle.diameter)
+console.log(firstCircle.circumference)
+console.log(firstCircle.area)
